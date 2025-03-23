@@ -1,11 +1,11 @@
-let score = "hitesh"
+let score = "kishan"; // 33, 33abc, null, true
 
 //console.log(typeof score);
 //console.log(typeof(score));
 
 let valueInNumber = Number(score)
-//console.log(typeof valueInNumber);
 //console.log(valueInNumber);
+//console.log(typeof valueInNumber);
 
 
 // "33" => 33
@@ -41,7 +41,7 @@ let negValue = -value
 // console.log(2%3);
 
 let str1 = "hello"
-let str2 = " hitesh"
+let str2 = " kishan"
 
 let str3 = str1 + str2
 // console.log(str3);
