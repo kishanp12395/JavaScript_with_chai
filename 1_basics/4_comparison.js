@@ -20,3 +20,5 @@ console.log(undefined < 0);
 // === 
 
 console.log("2" === 2);
+
+// always compare same datatype, avoide comparing different datatype
