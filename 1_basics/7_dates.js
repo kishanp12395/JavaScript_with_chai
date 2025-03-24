@@ -45,3 +45,18 @@ newDate.toLocaleString('default', {
     weekday: "long",
     
 })
+
+
+
+
+
+
+
+
+//*********************************** */
+//JavaScript has a built-in Date object for handling dates and times.
+
+//✅ Months start from 0 (January) to 11 (December).
+const now = new Date();                  // Current date and time
+const specificDate = new Date('2024-12-25'); // Date from string
+const fromNumbers = new Date(2024, 11, 25, 10, 30, 0); // (YYYY, MM-0, DD, HH, MM, SS)
