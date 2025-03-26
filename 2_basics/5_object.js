@@ -6,7 +6,7 @@ const course = {
     courseInstructor: "hitesh"
 }
 
-// course. courseInstructor
+// course.courseInstructor
 
 const {courseInstructor} = course
 console.log(courseInstructor);
