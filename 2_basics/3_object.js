@@ -1,5 +1,7 @@
 // singleton not created using literals {}
 
+
+//here we use object literals
 let mySym = Symbol("key1");
 
 const JsUser = {
