@@ -18,6 +18,7 @@ for (const greet of greetings) {
 //******************** map***********
 
 // Maps
+// not used with for-in
 
 const map = new Map()
 map.set('IN', "India")
@@ -36,7 +37,7 @@ for (const [key, value] of map) {
 
 
 // *************** object ***********
-//are not iterable.
+//are not iterable. only for-in
 const myObject = {
     game1: 'NFS',
     game2: 'Spiderman'
