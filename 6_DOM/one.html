@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    
+    <title>DOM learning</title>
+    <style>
+        .bg-black{
+            background-color: #212121;
+            color: #fff;
+        }
+    </style>
+</head>
+<body class="bg-black">
+    <div >
+        <h1  id="title" class="heading">DOM learning on Chai aur code <span style="display: none;">test text</span></h1>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <h2>Lorem ipsum dolor sit.</h2>
+        <p>Lorem ipsum dolor sit amet.</p>
+        <input type="password" name="" id="">
+
+        <ul>
+            <li class="list-item">one</li>
+            <li class="list-item">two</li>
+            <li class="list-item">three</li>
+            <li class="list-item">four</li>
+        </ul>
+    </div>
+</body>
+</html>
+<!-- 
+document.getElementById("title")
+<h1 id=​"title" class=​"heading">​"DOM learning on Chai aur code "<span style=​"display:​ none;​">​test text​</span>​</h1>​
+document.getElementById("title").id
+'title'
+document.getElementById("title").class   // class is reserved word so undefined
+undefined
+document.getElementById("title").className  // className is the right word.
+'heading'
+
+document.getElementById("title").getAttribute
+ƒ getAttribute() { [native code] }
+
+document.getElementById("title").getAttribute(id)
+VM778:1 Uncaught ReferenceError: id is not defined
+    at <anonymous>:1:47
+(anonymous) @ VM778:1
+
+document.getElementById("title").getAttribute('id') // must be write in string
+'title'
+
+document.getElementById("title").getAttribute('class')
+'heading'
+
+document.getElementById("title").setAttribute('class', 'test heading')
+undefined
+
+document.getElementById("title").getAttribute('id')
+'title'
+
+title.innerText   // it show text inside element, id , class or attribute
+'DOM learning on Chai aur code'
+
+title.textContent // it also show the same but it also show hidden text
+'DOM learning on Chai aur code test text' 
+
+title.innerHTML  // it show the HTML Values present inside the element, id, class etc
+'DOM learning on Chai aur code <span style="display: none;">test text</span>'
+
+
+
+// access element through
+
+document.getElementById
+ƒ getElementById() { [native code] }
+
+document.getElementsByClassName
+ƒ getElementsByClassName() { [native code] }
+
+
+document.getElementsByTagName
+ƒ getElementsByTagName() { [native code] }
+
+
+
+document.querySelector('h1')  // it can give the first occurence
+
+document.querySelector('#title')
+
+document.querySelector('.heading')
+
+document.querySelector('input[type="password"]')
+
+
+
+
+
+-->
