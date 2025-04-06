@@ -42,8 +42,7 @@ new Promise((resolve, reject) => {
 
 
 const promiseThree = new Promise((resolve, reject) => {
-  // do an async task
-  // db calls, cryptography, network calls
+
   setTimeout(() => {
     // resolve({username: "John Doe", email:"chai@example.com"});
   }, 1000);
