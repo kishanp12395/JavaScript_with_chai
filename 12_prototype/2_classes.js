@@ -26,7 +26,7 @@ const car2 = new Car("Audi", "A6", 2021);
 const car3 = new Car("Mercedes", "C-Class", 2022);
 console.log(car1.start());
 console.log(car1.stop());
-console.log(car1);
+console.log(car1.name);
 
 console.log(car2);
 console.log(car2.start());
